@@ -2,13 +2,13 @@
 
 NewBingGoGo是一个基于微软bingChat接口的浏览器AI对话插件。提供了好看的对话页面。实现了bingChat的大多数功能。
 
-![](https://gitee.com/jja8/new-bing-go-go.wikis/raw/master/images/1.png)
-![](https://gitee.com/jja8/new-bing-go-go.wikis/raw/master/images/1.1.png)
+![](https://gitee.com/jja8/NewBingGoGo.wikis/raw/master/images/1.png)
+![](https://gitee.com/jja8/NewBingGoGo.wikis/raw/master/images/1.1.png)
 
 ## 使用方法
 使用方法请阅读以下文档
 
-[快速入门.md](https://gitee.com/jja8/new-bing-go-go.wikis/blob/master/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)
+[快速入门.md](https://gitee.com/jja8/NewBingGoGo.wikis/blob/master/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md)
 
 
 ## 浏览器支持情况
