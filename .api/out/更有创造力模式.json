@@ -1,0 +1,127 @@
+{
+    "arguments": [
+        {
+            "source": "cib",
+            "optionsSets": [
+                "nlu_direct_response_filter",
+                "deepleo",
+                "disable_emoji_spoken_text",
+                "responsible_ai_policy_235",
+                "enablemm",
+                "h3imaginative",
+                "clgalileo",
+                "gencontentv3",
+                "telmet",
+                "jbfv2",
+                "c2b47e4f",
+                "dv3sugg"
+            ],
+            "allowedMessageTypes": [
+                "Chat",
+                "InternalSearchQuery",
+                "InternalSearchResult",
+                "Disengaged",
+                "InternalLoaderMessage",
+                "RenderCardRequest",
+                "AdsQuery",
+                "SemanticSerp",
+                "GenerateContentQuery",
+                "SearchQuery"
+            ],
+            "sliceIds": [
+                "semserpsup3",
+                "styleqnatg",
+                "lgintsuppcf",
+                "sydpayajax",
+                "toneexp",
+                "327telmet",
+                "325contents0",
+                "324jbfv2",
+                "303hubcancls0",
+                "321jobsgndv0",
+                "328throt",
+                "328postclss0"
+            ],
+            "verbosity": "verbose",
+            "traceId": "64254f576d25417991cc62c7e0327a56",
+            "isStartOfSession": true,
+            "message": {
+                "locale": "zh-CN",
+                "market": "zh-CN",
+                "region": "US",
+                "location": "lat:47.639557;long:-122.128159;re=1000m;",
+                "locationHints": [
+                    {
+                        "Center": {
+                            "Latitude": 30.480732417746996,
+                            "Longitude": 114.39287836398195
+                        },
+                        "RegionType": 2,
+                        "SourceType": 11
+                    },
+                    {
+                        "country": "United States",
+                        "state": "Texas",
+                        "city": "Dallas",
+                        "zipcode": "75207",
+                        "timezoneoffset": -6,
+                        "dma": 623,
+                        "countryConfidence": 8,
+                        "cityConfidence": 5,
+                        "Center": {
+                            "Latitude": 32.7928,
+                            "Longitude": -96.8274
+                        },
+                        "RegionType": 2,
+                        "SourceType": 1
+                    }
+                ],
+                "timestamp": "2023-03-30T16:59:05+08:00",
+                "author": "user",
+                "inputMethod": "Keyboard",
+                "text": "写一个关于火鸡的故事并配上插图，插图用英文关键字。",
+                "messageType": "Chat"
+            },
+            "conversationSignature": "iI9SlN5cijAS4Y6cj2iEckMR6Q6WdprZ6K7P9Lrra40=",
+            "participant": {
+                "id": "844428653138895"
+            },
+            "conversationId": "51D|BingProd|9D6C2D2F5AF82902F9A6629761F1C09DB4FC45A27B894C80B13910E3C467E576",
+            "previousMessages": [
+                {
+                    "text": "好了，我已经为新的对话重置了我的大脑。你现在想聊些什么?",
+                    "author": "bot",
+                    "adaptiveCards": [],
+                    "suggestedResponses": [
+                        {
+                            "text": "教我一个新单词",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "8ff7ba7a-67a6-c6fc-559f-0f6f239772f0",
+                            "offense": "Unknown"
+                        },
+                        {
+                            "text": "全息影像的工作原理是什么?",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "35851e0b-e3a9-ccbd-6298-03ac13c09187",
+                            "offense": "Unknown"
+                        },
+                        {
+                            "text": "教我一个新单词",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "233deb17-423b-4eb3-bc93-a36a63802302",
+                            "offense": "Unknown"
+                        }
+                    ],
+                    "messageId": "1eaded59-b5dc-5323-1d82-0a623baf1df2",
+                    "messageType": "Chat"
+                }
+            ]
+        }
+    ],
+    "invocationId": "0",
+    "target": "chat",
+    "type": 4
+}

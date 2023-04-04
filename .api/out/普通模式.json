@@ -1,0 +1,125 @@
+{
+    "arguments": [
+        {
+            "source": "cib",
+            "optionsSets": [
+                "nlu_direct_response_filter",
+                "deepleo",
+                "disable_emoji_spoken_text",
+                "responsible_ai_policy_235",
+                "enablemm",
+                "galileo",
+                "telmet",
+                "jbfv2",
+                "c2b47e4f",
+                "dv3sugg"
+            ],
+            "allowedMessageTypes": [
+                "Chat",
+                "InternalSearchQuery",
+                "InternalSearchResult",
+                "Disengaged",
+                "InternalLoaderMessage",
+                "RenderCardRequest",
+                "AdsQuery",
+                "SemanticSerp",
+                "GenerateContentQuery",
+                "SearchQuery"
+            ],
+            "sliceIds": [
+                "semserpsup3",
+                "styleqnatg",
+                "lgintsuppcf",
+                "sydpayajax",
+                "toneexp",
+                "327telmet",
+                "325contents0",
+                "324jbfv2",
+                "303hubcancls0",
+                "321jobsgndv0",
+                "328throt",
+                "328postclss0"
+            ],
+            "verbosity": "verbose",
+            "traceId": "64254f576d25417991cc62c7e0327a56",
+            "isStartOfSession": true,
+            "message": {
+                "locale": "zh-CN",
+                "market": "zh-CN",
+                "region": "US",
+                "location": "lat:47.639557;long:-122.128159;re=1000m;",
+                "locationHints": [
+                    {
+                        "Center": {
+                            "Latitude": 30.480732417746996,
+                            "Longitude": 114.39287836398195
+                        },
+                        "RegionType": 2,
+                        "SourceType": 11
+                    },
+                    {
+                        "country": "United States",
+                        "state": "Texas",
+                        "city": "Dallas",
+                        "zipcode": "75207",
+                        "timezoneoffset": -6,
+                        "dma": 623,
+                        "countryConfidence": 8,
+                        "cityConfidence": 5,
+                        "Center": {
+                            "Latitude": 32.7928,
+                            "Longitude": -96.8274
+                        },
+                        "RegionType": 2,
+                        "SourceType": 1
+                    }
+                ],
+                "timestamp": "2023-03-30T16:59:05+08:00",
+                "author": "user",
+                "inputMethod": "Keyboard",
+                "text": "写一个关于火鸡的故事并配上插图，插图用英文关键字。",
+                "messageType": "Chat"
+            },
+            "conversationSignature": "cZgbTYzDJNSeFXTFKGxAcj5NNa/L1yvqmVy6CNNUbLc=",
+            "participant": {
+                "id": "844428653138895"
+            },
+            "conversationId": "51D|BingProd|D6C30AEE51BBFDDE86C0C8A5727FE3C3A71385EACC2212DFE13AF0DDFB6BDEDB",
+            "previousMessages": [
+                {
+                    "text": "好的，我们来查找答案并聊会天。我可以为你做什么？",
+                    "author": "bot",
+                    "adaptiveCards": [],
+                    "suggestedResponses": [
+                        {
+                            "text": "写一首关于爆米花的诗",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "2fb655dc-6d78-bbc3-3b08-b2006928229f",
+                            "offense": "Unknown"
+                        },
+                        {
+                            "text": "给我个周末度假的主意",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "082d0843-e0a1-564c-f6b0-e80d27169fba",
+                            "offense": "Unknown"
+                        },
+                        {
+                            "text": "为我提供有关新爱好的想法",
+                            "contentOrigin": "DeepLeo",
+                            "messageType": "Suggestion",
+                            "messageId": "30b2955a-f441-90ac-abc1-1a7dfff07736",
+                            "offense": "Unknown"
+                        }
+                    ],
+                    "messageId": "15f9e013-2576-29ad-bef7-03f4b90d6877",
+                    "messageType": "Chat"
+                }
+            ]
+        }
+    ],
+    "invocationId": "1",
+    "target": "chat",
+    "type": 4
+}
