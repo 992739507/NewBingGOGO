@@ -1,7 +1,7 @@
 function $(qury) {
 	return document.querySelector(qury);
 }
-$('a#go-to-bing-go-go').href = 'chrome-extension://' + chrome.runtime.id + '/bing.html';
+$('a#go-to-bing-go-go').href = 'chrome-extension://' + chrome.runtime.id + '/Chat/bing.html';
 
 //----------------------------------------
 var url_input = document.querySelector('input#url-input');
