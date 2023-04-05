@@ -593,6 +593,10 @@ div.markdown-body {
     .bing>.sourceAttributions {
         flex-wrap: wrap;
     }
+
+    .bing>.sourceAttributions>a:hover {
+        flex: auto;
+    }
 }
 
 /*手机 css*/
@@ -619,6 +623,10 @@ div.markdown-body {
     .bing>.sourceAttributions {
         max-width: 88vw;
         flex-wrap: wrap;
+    }
+    
+    .bing>.sourceAttributions>a:hover {
+        flex: auto;
     }
 
     .adaptiveCardsFatherDIV,
