@@ -409,11 +409,7 @@ function porserSuggestedResponses(suggestedResponses) {
     for (let i = 0; i < suggestedResponses.length; i++) {
         let a = document.createElement('a');
         a.innerHTML = suggestedResponses[i].text;
-        a.onclick = (even) => {
-            if(searchSuggestions.style.opacity>=1){
-                send(even.target.innerHTML);
-            }
-        }
         searchSuggestions.appendChild(a);
     }
+    searchSuggestionsAddOnclick();
 }

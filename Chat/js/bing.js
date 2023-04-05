@@ -408,8 +408,9 @@ async function loadChatRecords(conversationId) {
 	);
 	//还原页面
 	chat.innerHTML = theRecords.html;
-	//还原收索建议
+	//还原聊天建议
 	searchSuggestions.innerHTML = theRecords.searchSuggestionsHtml;
+	searchSuggestionsAddOnclick();
 	//还原自动保存状态
 	isSaveChatRecords = true;
 	chatRecordsNameInput.value = theRecords.name;
@@ -417,7 +418,21 @@ async function loadChatRecords(conversationId) {
 	chatRecordsNameInputDiv.classList.remove('noshow');
 	//还原聊天类型
 	setChatModType(theRecords.optionsSets);
+	//隐藏聊天类型选择按钮
+	chatTypeDiv.style.opacity = 0;
 	return theRecords;
+}
+
+//给聊天建议添设置点击事件
+async function searchSuggestionsAddOnclick(){
+	let adds = document.querySelectorAll("#SearchSuggestions>a");
+	for(let add in adds){
+		adds[add].onclick = (event)=>{
+			if(searchSuggestions.style.opacity>=1){
+                send(event.target.innerHTML);
+            }
+		}
+	}
 }
 
 //自动保存，如果开启保存当前聊天记录就保存，这个函数在需要自动保存的时候调用。
